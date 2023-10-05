@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+body{
+    height: 150vh;
+}
+.content{
+background-color: rgb(255,104,37);
+height: 40vh;
+width: 100vw;
+}
+.header1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3vh;
+}
+.header2{
+    color:white;
+    text-align: center;
+    font-size:45px;
+}
+.content>p{
+    text-align: center;
+    font-size:20px;
+    padding: 1vh;
+}
+.about{ 
+    margin-top: 3vh; 
+    margin-left: 3vh; 
+} 
+.about span{ 
+    border-bottom: 3px dotted black; 
+    font-size: 30px ; 
+    font-weight: bold; 
+} 
+.about > p{ 
+    text-align: left; 
+    font-size: 20px; 
+    padding-top: 3vh; 
+} 
+.mission{ 
+    margin-top: 3vh; 
+    margin-left: 3vh; 
+}
+.mission > p{ 
+    padding-top: 3vh;  
+    font-size: 20px; 
+} 
+.mission span{ 
+    border-bottom: 3px dotted black; 
+    font-size: 30px; 
+    font-weight: bold; 
+} 
+div.info{ 
+    display: flex; 
+    justify-content: space-around; 
+}
+img{
+    position:absolute;
+    padding-left: 5vw;
+}
+.course{
+    margin-top: 5vh;
+    display: flex; 
+    flex-direction: column;
+   align-items: center;
+}
+.course > h3{
+ font-size: 30px;
+ border-bottom: 3px dotted black; 
+ font-weight: bold; 
+}
+.footer{
+    background-color: rgb(204,204,204);
+    
+    height:25vh;
+    padding-top: 4vh; 
+    display: flex; 
+    justify-content: space-around;
+}
+.footer h2{
+    margin-bottom: 3vh;
+    border-bottom: 3px dotted black; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+.footer li{
+    list-style-type: none;
+    font-size: 25px; 
+}
